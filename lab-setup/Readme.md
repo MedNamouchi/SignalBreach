@@ -9,8 +9,14 @@ Everything needed to reproduce the Asterisk PBX yourself — download just this 
 - `README.md` — installation guide, step by step
 - `troubleshooting.md` — two real bugs hit while building this, root-caused in full
 
-## [`/zoiper`](./zoiper)
+## [`/zoiper`](./03-zoiper)
  
 Installing and configuring the Zoiper softphone against the Asterisk PBX above:
 - `README.md` — installation and manual configuration guide
 - `troubleshooting.md` — a spurious keyring prompt, and a VirtualBox microphone setting that silently blocks audio input
+
+## [`/linphone`](./04-linphone)
+ 
+Two Linphone clients tried — Linphone Desktop (GUI, used for real two-party call testing) and `linphonec` (CLI, attempted for scripted calls):
+- `README.md` — installation and configuration for both
+- `troubleshooting.md` — why `linphonec` was dropped in favor of SIPp for automation, and a port conflict between Linphone Desktop and Asterisk
