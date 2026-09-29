@@ -8,3 +8,9 @@ Everything needed to reproduce the Asterisk PBX yourself — download just this 
 - `Dockerfile`, `modules.conf`, `pjsip.conf`, `extensions.conf` — the actual config
 - `README.md` — installation guide, step by step
 - `troubleshooting.md` — two real bugs hit while building this, root-caused in full
+
+## [`/zoiper`](./zoiper)
+ 
+Installing and configuring the Zoiper softphone against the Asterisk PBX above:
+- `README.md` — installation and manual configuration guide
+- `troubleshooting.md` — a spurious keyring prompt, and a VirtualBox microphone setting that silently blocks audio input
